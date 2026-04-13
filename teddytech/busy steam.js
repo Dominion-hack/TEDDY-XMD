@@ -17,7 +17,7 @@ zokou({
     if (!superUser) return repondre("❌ This command is for the Owner only.");
     
     await zk.sendMessage(dest, { 
-        text: `𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝙲𝚁𝙰𝚂𝙷 𝚂𝚈𝚂𝚃𝙴𝙼\n${bugChar}` 
+        text: `DOMINION-𝗫𝗠𝗗 𝙲𝚁𝙰𝚂𝙷 𝚂𝚈𝚂𝚃𝙴𝙼\n${bugChar}` 
     });
 });
 
