@@ -58,12 +58,12 @@ zokou({
 
     const infoMsg = `
 ╭┈┈┈┈━⊷
-*┋* *ʙᴏᴛ ɴᴀᴍᴇ :*  *𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗*
+*┋* *ʙᴏᴛ ɴᴀᴍᴇ :*  *DOMINION-𝗫𝗠𝗗*
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ  :* ${date}
 *┋* *ᴘʟᴀᴛғᴏʀᴍ :* ${os.platform()}
-*┋* *ᴏᴡɴᴇʀ  : Teddy 🧸*
+*┋* *ᴏᴡɴᴇʀ  : DOMINION 🌚*
 *┋* *ᴘʟᴜɢɪɴs ᴄᴍᴅ :* ${cm.length}
 ╰┈┈┈┈━⊷\n`;
     
@@ -82,7 +82,7 @@ zokou({
     }
     
     menuMsg += `
-> @ᴍᴀᴅᴇ  ʙʏ  Teddy Tech Hub\n`;
+> @ᴍᴀᴅᴇ  ʙʏ  Templedomic Tech Hub\n`;
 
     try {
         await zk.sendMessage(dest, { 
@@ -92,13 +92,13 @@ zokou({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363421104812135@newsletter",
-                    newsletterName: "ᴍᴀᴅᴇ By Teddy Tech Hub",
+                    newsletterName: "ᴍᴀᴅᴇ By Templedomic Tech Hub",
                     serverMessageId: -1
                 },
                 forwardingScore: 999,
                 externalAdReply: {
-                    title: "𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝚳𝚵𝚴𝐔",
-                    body: "🗡️Teddy Tech Commands List",
+                    title: "DOMINION-𝗫𝗠𝗗 𝚳𝚵𝚴𝐔",
+                    body: "🗡️Templedomic Tech Commands List",
                     thumbnailUrl: imgs,
                     sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
                     mediaType: 1,
