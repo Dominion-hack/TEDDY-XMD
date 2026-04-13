@@ -31,7 +31,7 @@ zokou({
 
         let menuMsg = `
 ╭─────────────━┈⊷•
-│ 🤖 *𝙱𝙾𝚃:* 𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗
+│ 🤖 *𝙱𝙾𝚃:* DOMINION-𝗫𝗠𝗗
 │ 👤 *𝚄𝚂𝙴𝚁:* ${nomAuteurMessage}
 │ 📅 *𝙳𝙰𝚃𝙴:* ${date}
 │ ⌚ *𝚃𝙸𝙼𝙴:* ${time}
@@ -65,7 +65,7 @@ zokou({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: channelJid,
-                    newsletterName: "𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝚂𝚈𝚂𝚃𝙴𝙼",
+                    newsletterName: "DOMINION-𝗫𝗠𝗗 𝚂𝚈𝚂𝚃𝙴𝙼",
                     serverMessageId: 1
                 }
             }
@@ -81,7 +81,7 @@ zokou({
                 forwardingScore: 0,
                 isForwarded: false, 
                 externalAdReply: {
-                    title: "𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝚂𝚈𝚂𝚃𝙴𝙼 𝙰𝙲𝚃𝙸𝚅𝙴",
+                    title: "DOMINION-𝗫𝗠𝗗 𝚂𝚈𝚂𝚃𝙴𝙼 𝙰𝙲𝚃𝙸𝚅𝙴",
                     body: "Status: System Running",
                     renderLargerThumbnail: false,
                     mediaType: 1,
