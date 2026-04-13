@@ -27,7 +27,6 @@ zokou({
   const start = new Date().getTime();
   
   // --- CONFIGURATION ---
-  const channelJid = "120363421104812135@newsletter"; 
   const audioUrl = "https://files.catbox.moe/fh06su.mp3"; 
   const imageUrl = "https://files.catbox.moe/p02qjd.jpg"; 
   // ---------------------
@@ -42,7 +41,7 @@ zokou({
     const freeRam = (os.freemem() / 1024 / 1024 / 1024).toFixed(2);
     const usedRam = (totalRam - freeRam).toFixed(2);
 
-    const statusMsg = `*🚀 TEDDY XMD PING 🚀*
+    const statusMsg = `*🚀 DOMINION MD PING 🚀*
 
 ╭─────────────━┈⊷• 
 │⚡ *Latency:* ${ping} ms
@@ -53,24 +52,9 @@ zokou({
 🎵 *Music is playing below...*
 📢 *Click "View Channel" to join us for more!*
 
-> Made by Teddy Tech Hub`;
-
-    // 1. Send Image with Status & View Channel Button (Context)
-    await zk.sendMessage(dest, {
-      image: { url: imageUrl },
-      caption: statusMsg,
-      contextInfo: {
-        forwardingScore: 999,
-        isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: channelJid,
-          newsletterName: "Teddy Tech Music", // You can change this name
-          serverMessageId: 143
-        }
-      }
-    }, { quoted: ms });
-
-    // 2. Send Audio File
+> Made by TEMPLEDOMIC TECH HUB`;
+      
+      // 1. Send Audio File
     await zk.sendMessage(dest, {
       audio: { url: audioUrl },
       mimetype: 'audio/mp4',
