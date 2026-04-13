@@ -17,7 +17,7 @@ zokou({
     if (!arg[0]) {
         const status = conf.CHATBOT === "on" ? "ENABLED ✅" : "DISABLED ❌";
         return zk.sendMessage(dest, { 
-            text: `*TEDDY-XMD CHATBOT SETTINGS*\n\n` +
+            text: `*DOMINION-XMD CHATBOT SETTINGS*\n\n` +
                  `Current Status: *${status}*\n\n` +
                  `*Commands:*\n` +
                  `🔹 *.chatbot on* - Turn on auto-reply\n` +
