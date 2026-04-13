@@ -72,13 +72,13 @@ zokou({
     const infoMsg = `
 ╭┈┈┈┈━⊷
 *┋* *ʜᴇʟʟᴏ :* ${nomAuteurMessage}
-*┋* *ʙᴏᴛ :* *𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗*
+*┋* *ʙᴏᴛ :* *DOMINION-𝗫𝗠𝗗*
 *┋* *ᴜᴘᴛɪᴍᴇ :* ${liveLog}
 *┋* *ʀᴀᴍ :* ${ram} MB
 *┋* *ᴘʀᴇғɪx :* [ ${s.PREFIXE} ]
 *┋* *ᴍᴏᴅᴇ :* ${mode}
 *┋* *ᴅᴀᴛᴇ :* ${date}
-*┋* *ᴏᴡɴᴇʀ :* Teddy 
+*┋* *ᴏᴡɴᴇʀ :* DOMINION 🌚
 ╰┈┈┈┈━⊷\n`;
     
     let menuMsg = ` *${greeting}* \n${readMore}`;
@@ -92,7 +92,7 @@ zokou({
     }
     
     menuMsg += `\n> 
-━━━ ✨ » 𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 « ✨ ━━━
+━━━ ✨ » DOMINION-𝗫𝗠𝗗 « ✨ ━━━
 \n`;
 
     try {
@@ -102,7 +102,7 @@ zokou({
             caption: infoMsg + menuMsg,
             contextInfo: {
                 externalAdReply: {
-                    title: "𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝚳𝚵𝚴𝐔",
+                    title: "DOMINION-𝗫𝗠𝗗 𝚳𝚵𝚴𝐔",
                     body: `Welcome, ${nomAuteurMessage}`,
                     thumbnailUrl: imgs,
                     sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
@@ -113,7 +113,7 @@ zokou({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363421104812135@newsletter",
-                    newsletterName: "ᴍᴀᴅᴇ  ʙʏ Teddy",
+                    newsletterName: "ᴍᴀᴅᴇ  ʙʏ TEMPLEDOMIC TECH",
                     serverMessageId: 143
                 }
             }
@@ -126,7 +126,7 @@ zokou({
             ptt: true,
             contextInfo: {
                 externalAdReply: {
-                    title: "ᴍᴀᴅᴇ ɪɴ ʙʏ Teddy ᴛᴇᴄʜ",
+                    title: "ᴍᴀᴅᴇ ɪɴ ʙʏ TEMPLEDOMIC ᴛᴇᴄʜ",
                     body: `Playing Theme for ${nomAuteurMessage}`,
                     thumbnailUrl: imgs,
                     mediaType: 1
