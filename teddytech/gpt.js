@@ -5,7 +5,6 @@ const axios = require("axios");
 
 zokou({ nomCom: "gpt", aliases: ["ai", "gpt4", "ask"], categorie: "AI", reaction: "🤖" }, async (dest, zk, commandeOptions) => {
     const { arg, repondre, ms, prefixe, auteurMessage } = commandeOptions;
-    const channelJid = "120363421104812135@newsletter";
 
     if (!arg || arg.length === 0) {
         return repondre(`*Hello @${auteurMessage.split('@')[0]}, how can I help you today?*\n\n*Example:* ${prefixe}gpt What is Quantum Physics?`);
@@ -24,19 +23,19 @@ zokou({ nomCom: "gpt", aliases: ["ai", "gpt4", "ask"], categorie: "AI", reaction
         const result = response.data.result;
 
         await zk.sendMessage(dest, {
-            text: `*𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝙶𝙿𝚃-𝟺 𝙰𝙸*\n\n${result}\n\n*Requested by:* @${auteurMessage.split('@')[0]}`,
+            text: `*DOMINION-𝗫𝗠𝗗 𝙶𝙿𝚃-𝟺 𝙰𝙸*\n\n${result}\n\n*Requested by:* @${auteurMessage.split('@')[0]}`,
             mentions: [auteurMessage],
             contextInfo: {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: channelJid,
-                    newsletterName: "𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗 𝙰𝙸 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃",
+                    newsletterName: "DOMINION-𝗫𝗠𝗗 𝙰𝙸 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃",
                     serverMessageId: 1
                 },
                 externalAdReply: {
                     title: "𝙶𝙿𝚃-𝟺 𝙸𝙽𝚃𝙴𝙻𝙻𝙸𝙶𝙴𝙽𝙲𝙴",
-                    body: "Powered by 𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗",
+                    body: "Powered by TEMPLEDOMIC-TECH",
                     thumbnailUrl: "https://files.catbox.moe/p02qjd.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029Vb6NveDBPzjPa4vIRt3n",
                     mediaType: 1,
