@@ -1,6 +1,6 @@
 {
-  "name":"𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗",
-  "description":"Best whatsapp bot💥 developed by Teddy Tech ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ ",
+  "name":"DOMINION-𝗫𝗠𝗗",
+  "description":"Best whatsapp bot💥 developed by Templedomic Tech ᴍᴜʟᴛɪᴘʟᴇ ᴅᴇᴠɪᴄᴇ ʙᴏᴛ ",
   "keywords":["timnasa","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/p02qjd.jpg",
     "repository": "https://github.com/Teddytech1/TEDDY-XMD",
@@ -15,13 +15,13 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
       "AUDIO_REPLY":
     {
       "description":"Enter yes for your bot to auto reply audio in all chats",
-      "value":"yes",
+      "value":"no",
       "required":false
     },
     "AUTO_REPLY": {
@@ -31,12 +31,12 @@
     },
     "AUTO_REACT_STATUS": {
       "description": "Your contact status will be react automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_BIO": {
       "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "ANTI_BAD": {
@@ -46,12 +46,12 @@
     },
     "ANTI_BUG": {
       "description": "when you enable anti bug 🐛 bot is detect bugs text and delete",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "AUTO_SAVE_CONTACTS": {
       "description":"Enter yes for your bot to auto save contacts",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
     "AUTO_DOWNLOAD_STATUS": {
@@ -61,12 +61,12 @@
     },
     "PM_PERMIT": {
       "description": "Restrict other users from using your bot in private messages (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "💲YOUR STATUS VIEWED BY 𝗧𝗘𝗗𝗗𝗬-𝗫𝗠𝗗",
+      "value": "💲YOUR STATUS VIEWED BY DOMINION-𝗫𝗠𝗗",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -86,7 +86,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
-      "value": "TEDDY-XMD",
+      "value": "DOMINION-XMD",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -111,7 +111,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '254799963583')",
-      "value": "254799963583",
+      "value": "2348056408043",
       "required": false
     },
     "STARTING_BOT_MESSAGE": {
